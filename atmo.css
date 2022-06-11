@@ -1,0 +1,180 @@
+body{
+    background-color: #cac6ca;
+    width: 100%;
+}
+.content{
+    background-color:#272727 ;
+    padding: 10px;
+    overflow:auto;
+    clear: both;
+}
+.head{
+    margin: 1px;
+    color: gold;
+    font-size:30px;
+    float: inline-start;
+    left: 100%;
+    padding-right: 580px;
+    
+}
+nav li {
+    list-style-type: none;
+    display:inline;
+    padding: 10px ;
+}
+nav{
+    text-align: end;
+
+}
+.nav a{
+    text-decoration: none;
+    color: gold;
+    font-size:20px;
+}
+gridcontainer{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr  ;
+}
+.img{
+   display: inline-flex;
+    padding:5px ;
+  
+}
+img{
+    width: 600px ;
+    height:300px ;
+
+}
+.card{
+    display: inline-flex;
+    background-color: #272727;
+    width: 100%;
+    color: white;
+  
+}
+.location{
+    text-align: left;
+
+   
+}
+.booking{
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: white;
+}
+.social{
+    text-align: right;
+    color: #d4d3d4;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+ 
+}
+h3 ,h4{
+    color:gold ;
+}
+
+
+.container2{
+    display: flex;
+}
+.image{
+    display: inline-flex;
+}
+img{
+    width: 600px;
+    height: 400px;
+}
+.form{
+    padding-left: 100px;
+}
+.form div {
+    margin-bottom:10px ;
+}
+label{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    text-align: left;
+    color: white;
+    margin-right: 10px;
+    font-size: larger;
+
+}
+input, textarea{
+    padding: 10px, 15px;
+    width: 300px;
+    height: 40px;
+    font-size: larger;
+    border-radius: 5px;
+}
+#button{
+    background-color: black;
+    float:right;
+    color: rgb(221, 193, 32);
+    border-radius: 5px;
+}
+button:hover{
+    transition: o.3s;
+    cursor: pointer;
+ 
+    
+}
+::placeholder{
+    font-size: small;
+}
+.folder{
+    display: flex;
+}
+.side{
+    width: 600px;
+    height: 800px;
+}
+p{
+    font-size: small;
+    font-family:'Courier New', Courier, monospace;
+}
+.four{
+    display: flex;
+    margin-top: 10px;
+}
+.four div{
+    display: inline-flex;
+   
+}
+.four img{
+    width: 420px;
+    height: 400px;
+    padding: 5px;
+}
+.menu{
+    text-align: center;
+    font-size: large;
+    align-items: center;
+}
+
+@media screen  and (max-width:100%) {
+    .social, .booking, .card, .container2,.content, .folder,
+    .form, .four, .head, .image, .img, .location, .menu, .nav, .side
+    {
+        width: 100%;
+    }
+}
+    
+
+
+
+
+
+
+    
+
+    
+
+ 
+    
